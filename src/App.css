@@ -1,8 +1,35 @@
 .movies {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
 .actor-img {
-  width: 100px;
+  width: 250px;
+}
+.app {
+  margin: 0 auto;
+  width: 85%;
+  text-align: center;
+}
+
+.movies {
+  margin: 0 auto;
+  width: 85%;
+  text-align: center;
+}
+
+.nav {
+  margin: auto;
+  width: 85%;
+  height: 30px;
+  background-color: green;
+  margin-bottom: 15px;
+}
+
+.modalBody {
+  display: flex;
+}
+.modalBody img {
+  width: 30%;
 }
