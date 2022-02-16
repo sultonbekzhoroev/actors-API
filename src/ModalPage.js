@@ -26,24 +26,6 @@ class ModalPage extends React.Component {
         <Modal isOpen={modalIsOpen} toggle={() => this.handlerToggle()}>
           <ModalHeader>{name}</ModalHeader>
           <ModalBody className="modalBody">
-            <img
-              src={
-                "https://image.tmdb.org/t/p/w500/" + known_for[0].poster_path
-              }
-              className="actor-img"
-            ></img>
-            <img
-              src={
-                "https://image.tmdb.org/t/p/w500/" + known_for[1].poster_path
-              }
-              className="actor-img"
-            ></img>
-            <img
-              src={
-                "https://image.tmdb.org/t/p/w500/" + known_for[2].poster_path
-              }
-              className="actor-img"
-            ></img>
             <p>{popularity}</p>
           </ModalBody>
           <ModalFooter>this is modal footer</ModalFooter>
