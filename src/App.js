@@ -41,7 +41,7 @@ class App extends React.Component {
   }
 
   handleModal(status) {
-    this.setstate({ isTheModalOn: status });
+    this.setState({ isTheModalOn: status });
   }
 
   render() {
